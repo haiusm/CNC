@@ -8,13 +8,13 @@ body{
  padding: 0px,50px,0px,50px;
     }
 
-  #divHome_TopCarousel{
-
-  }
   #divTopSMContacts{
     clear: both;
     position: static;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: darkslategray;
     color: white;
     overflow: auto;
@@ -45,7 +45,7 @@ float: left;
 width: 17.8%;
 text-align: center;
 background-color: rgb(236, 255, 255);
-border: 3px groove blanchedalmond;
+border: 1px solid rgb(185, 184, 184);
 padding: 20px;
 margin: 20px;
 text-align: justify;
@@ -57,7 +57,7 @@ text-align: justify;
   padding: 20px;
   text-align: center;
   font-size: 20px;
-  background-color: green;
+  background-color: rgb(36, 75, 36);;
 }
 
 #divOurContacts{
@@ -99,22 +99,22 @@ margin-right: auto;
   width: 22.8%;
   text-align: center;
   background-color: rgb(233, 255, 228);
-  border: 3px groove blanchedalmond;
+  border: 1px solid rgb(185, 184, 184);
   padding: 20px;
   margin: 20px;
   text-align: justify;
   }
 
 #divAboutUs{
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
   clear: both;
   position: static;
-  background-color:wheat;
+  background-color:rgb(228, 227, 227);
 }
 
 #divPeopleAboutUs{
   width: 100%;
-  padding: 20px;
+  padding: 20px 150px 20px 150px;
   background-color: rgb(209, 209, 209);
   overflow: auto;
 }
@@ -122,7 +122,7 @@ margin-right: auto;
 .divPeopleAboutUs_Sub{
   float: left;
   padding: 30px;
-  width: 40%;
+  width: 50%;
   border: 1px solid darkgrey;
  margin: auto;
   position: relative;
@@ -138,7 +138,24 @@ margin-right: auto;
 .divOurProcess_Sub{
   float: left;
   padding: 30px;
-  width: 15%;
+  width: 16.666%;
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  text-align:center;
+}
+
+#divOurSkills{
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  overflow: auto;
+}
+
+.divOurSkills_Sub{
+  float: left;
+  padding: 30px;
+  width: 25%;
   margin: auto;
   position: relative;
   display: inline-block;
@@ -149,7 +166,7 @@ margin-right: auto;
   clear: both;
   position: static;
   width: 100%;
-  background-color:green;
+  background-color:rgb(36, 75, 36);
   overflow: auto;
 }
 .divFooter_Sub{
@@ -177,12 +194,12 @@ margin-right: auto;
 #iconLarge{
   text-align: center;
   font-size: 70px;
-  color:green;
+  color:rgb(36, 75, 36);
   display: inline-block;
   border-radius: 100%;
   box-shadow: 0px 0px 2px #888;
   padding: 15px 35px 20px 35px;
-  background-color: gray;
+  background-color: rgb(209, 209, 209);
 }
 
 #iconSmall{
