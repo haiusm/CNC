@@ -24,11 +24,11 @@ body{
     clear: both;
     position: static;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    vertical-align: middle;
     text-align: left;
     font-size: 20px;
     font-weight: bolder;
     padding: 0px 50px 0px 50px;
+    overflow: auto;
   }
   
 #divAdvantages{
@@ -71,7 +71,7 @@ text-align: justify;
 
 #divOurServices
 {
-  clear: top;
+  clear: both;
   position: static;
   width: 100%;
   text-align: center;
@@ -94,6 +94,23 @@ text-align: justify;
   clear: both;
   position: static;
   background-color:orange;
+}
+
+#divFooter{
+  clear: both;
+  position: static;
+  width: 100%;
+  background-color:green;
+  overflow: auto;
+}
+.divFooter_Sub{
+  float: left;
+  width: 22.8%;
+  border-right: 2px solid gray;
+  padding: 20px;
+  margin: 20px;
+  vertical-align: top;
+  color: white;
 }
 
 .iconDivHeading{
