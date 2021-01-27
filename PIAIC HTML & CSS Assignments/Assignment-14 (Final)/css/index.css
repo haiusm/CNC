@@ -17,6 +17,7 @@ body{
     padding: 20px;
     background-color: darkslategray;
     color: white;
+    overflow: auto;
   }
 
   #divTopMenu{
@@ -27,20 +28,21 @@ body{
     text-align: left;
     font-size: 20px;
     font-weight: bolder;
+    padding: 0px 50px 0px 50px;
   }
   
 #divAdvantages{
   clear: both;
-  float: left;
   position: static;
   width: 100%;
   text-align: center;
   background-color: deepskyblue;
+  overflow: auto;
 }
 
 .divAdvantages_Sub{
 float: left;
-width: 15.2%;
+width: 17.8%;
 text-align: center;
 background-color: darkturquoise;
 border: 3px groove blanchedalmond;
@@ -69,18 +71,17 @@ text-align: justify;
 
 #divOurServices
 {
-  float: left;
   clear: top;
   position: static;
   width: 100%;
   text-align: center;
   background-color: deepskyblue;
+  overflow: auto;
 }
 
 .divOurServices_Sub{
   float: left;
-  width: 20.5%;
-  table-layout: auto;
+  width: 22.8%;
   text-align: center;
   background-color: darkturquoise;
   border: 3px groove blanchedalmond;
@@ -122,11 +123,11 @@ text-align: justify;
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 5px 15px 5px 15px;
+  padding: 10px 20px 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
   cursor: pointer;
   margin: 0;
 }
